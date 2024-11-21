@@ -6,7 +6,7 @@ int main(){
 	printf("Nhap so nguyen co 4 chu so: ");
 	scanf("%d", &n);
 	// B2: kiem tra xem so do co phai so co 4 chu so khong neu khong thi nhap lai
-	while(1000 < n || n > 9999){
+	while(1000 > n || n > 9999){
 		printf("So ban nhap khong thoa man hay nhap lai: ");
 		scanf("%d", &n);
 	}
